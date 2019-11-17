@@ -23,6 +23,7 @@ Future<Map<String, File>> init() async {
   testFiles["Dolphin"] = await getImageFileFromAssets("dolphin.jpeg");
   testFiles["Room Interior"] = await getImageFileFromAssets("interior.jpeg");
   testFiles["Boat and City"] = await getImageFileFromAssets("boat_river.jpeg");
+  testFiles["Catalina"] = await getImageFileFromAssets("catalina.jpeg");
   return testFiles;
 }
 
